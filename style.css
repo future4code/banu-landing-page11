@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*cabeçalho*/   
+header {   
+    background-color: RGB(59,79,102);
+    text-align: center;
+}
+/*Definindo o padding da página inteira*/   
+main {
+    padding: 10px;
+    }
+/*rodapé*/   
+footer {
+  background-color: RGB(122,167,106);
+}
+/*definindo cor da tag h1*/
+h1{
+    color:white;
+}
+/*Definindo configuração da tag h2*/   
+h2{
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: xx-large;
+}
+
+p{
+    text-align: center;
+}
+.icone{
+    height: 50px;
+}
+
+.logo{
+    height: auto;
+}
+
+.ilustracao{
+    width: 100%;
+}
+
+.painel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.seguro{
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.servicos{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+     padding: 10px;
+    background-color: rgb(36, 51, 68) ;
+        color: white;
+}
+
+
+
+
+
+
+.depoimentos{  
+    display: grid;
+    grid-template-rows: 1fr 7fr 7fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contato{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.button {
+    background-color: rgb(46, 46, 71);
+    width: 120px
+}
+
+
+
+
+@media screen and (max-device-width : 480px) {
+    /* celulares */
+    main {
+       padding: 0;
+    }
+    
+    h2{
+        font-size: x-large;
+        padding: 10px
+    }
+    
+    h3{
+        font-size:large;
+    }
+
+    .logo{
+        height: 300px;
+    }
+    
+}
